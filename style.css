@@ -1,0 +1,110 @@
+#myTable {
+  border: 1px solid gray;
+}
+
+#myTable th {
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: #012a77;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#myTable td {
+  border: 1px solid gray;
+  padding: 10px;
+  vertical-align: center;
+}
+
+form div {
+  margin: 10px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  background-color: #341f67;
+  flex-wrap: wrap;
+}
+
+.fieldName {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 3px solid #ffffff;
+  width: 100%;
+  color: currentColor;
+  background: transparent;
+  margin-top: 5px;
+  color: white;
+}
+
+input[type="number"] {
+  width: 97%;
+}
+
+input[type="number"]:hover {
+  transform: scale(1.08);
+  transition: 0.6s;
+}
+
+input[type="text"]:hover {
+  transform: scale(1.08);
+  transition: 0.6s;
+}
+
+label {
+  color: #729ff1;
+}
+
+.add {
+  background-color: #004dfa;
+  color: #ffffff;
+  height: 33px;
+  width: 108px;
+  border-radius: 18px;
+  font-weight: bold;
+  position: relative;
+  left: 163%;
+  top: 35px;
+}
+
+#myTable tr:nth-child(even) {
+  background: #ccc;
+}
+
+.nameOnly {
+  display: flex;
+}
+
+.Aname-field,
+.Pincode-field,
+.Food-field {
+  margin: 20px;
+}
+
+.error {
+  color: red;
+  animation: slow 2s ease forwards;
+  animation-delay: 2s;
+}
+
+.add:hover {
+  transform: scale(1.08);
+  transition: 0.2s;
+}
+
+.secondContainer {
+  display: flex;
+  justify-content: center;
+}
